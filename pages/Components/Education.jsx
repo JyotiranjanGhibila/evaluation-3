@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"black"}}>
       <h1>Full Stack Web Development Masai School</h1>
       <p>2022 May – present</p>
       <h1>Bachelor of Science in Physics Sambalpur University</h1>

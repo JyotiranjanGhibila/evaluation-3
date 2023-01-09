@@ -3,7 +3,7 @@ import React from "react";
 const Projects = ({ projects}) => {
   console.log(projects);
   return (
-    <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",border:"0.2px solid white"}}>
+    <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",border:"0.2px solid white",backgroundColor:"black"}}>
       {
         projects.map((e,ind)=>(
           <div key={e.id} style={{border:"0.4px solid whitesmoke",display:"grid",gridTemplateColumns:"repeat(2,1fr)"}}>

@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home({ profile }) {
   return (
     <>
-      <div>
+      <div style={{backgroundColor:"black"}}>
         <div
           style={{
             width: "100%",
